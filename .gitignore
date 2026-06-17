@@ -1,0 +1,11 @@
+# Git Ignore
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+runs/
+*.zip
+*.pt
+can_dataset/
+plastic_bottle_dataset/
+tempCodeRunnerFile.*

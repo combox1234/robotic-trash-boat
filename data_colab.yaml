@@ -1,0 +1,13 @@
+train:
+  - /content/most_recent_vrs/can_dataset/train/images
+  - /content/most_recent_vrs/plastic_bottle_dataset/train/images
+
+val:
+  - /content/most_recent_vrs/can_dataset/valid/images
+  - /content/most_recent_vrs/plastic_bottle_dataset/valid/images
+
+test:
+  - /content/most_recent_vrs/plastic_bottle_dataset/test/images
+
+nc: 2
+names: ['can', 'bottle']
