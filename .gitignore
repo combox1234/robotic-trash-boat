@@ -3,11 +3,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-*.zip
-can_dataset/
-plastic_bottle_dataset/
 tempCodeRunnerFile.*
 
 # Allow training runs and weights but ignore prediction outputs
 runs/detect/predict*
-

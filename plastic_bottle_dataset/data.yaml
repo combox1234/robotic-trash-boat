@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bottle']
+
+roboflow:
+  workspace: sdp2
+  project: bottle-f2u4m
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sdp2/bottle-f2u4m/dataset/1

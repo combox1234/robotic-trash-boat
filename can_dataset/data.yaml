@@ -1,0 +1,21 @@
+train:
+  - F:/programs/python/new_vr/can_dataset/train/images  # Cans train images
+  - F:/programs/python/new_vr/plastic_bottle_dataset/train/images  # Plastic + bottle train images
+
+val:
+  - F:/programs/python/new_vr/can_dataset/valid/images  # Cans valid images
+  - F:/programs/python/new_vr/plastic_bottle_dataset/valid/images  # Plastic + bottle valid images
+
+test:
+  - F:/programs/python/new_vr/plastic_bottle_dataset/test/images  # Plastic + bottle test images
+
+nc: 3  # Number of classes (Cans, Plastic, Bottle)
+names: ['Cans', 'Plastic Bottle']  # Class names
+
+
+roboflow:
+  workspace: dataset-t7hz7
+  project: cans-fdboa
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dataset-t7hz7/cans-fdboa/dataset/3
